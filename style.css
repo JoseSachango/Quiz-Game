@@ -1,0 +1,46 @@
+
+body {
+     background-color: #ADD8E6;
+                
+}
+
+h6 {
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#quizChallenge {
+    color: white;
+   
+    display: block;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    
+
+}
+
+.banner {
+   
+   
+   
+  
+    
+
+}
+
+#instructions-p {
+    color: white;
+    width: 500px;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    border-width: medium;
+    font-weight: bold;
+    padding: 20px;
+
+}
