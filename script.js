@@ -40,7 +40,7 @@ function timer(event){
             $page2.display = "block"
             $page1.display = "none"
 
-            setInterval(function(){
+            var $interval = setInterval(function(){
 
                 var currentTime=eval($timeLeft.innerHTML)
                 currentTime--
@@ -50,11 +50,20 @@ function timer(event){
                 
                
     
-                
+                if(currentTime===0){
+                    clearInterval($interval)
+
+                    $page6.display = "block"
+                    $page2.display = "none"
+                    document.getElementById("finalScore").innerHTML = 0
+
+
+
+                }
                 
     
                 
-                console.log(event.target.getAttribute("id"))
+                
     
             },1000)
         }
