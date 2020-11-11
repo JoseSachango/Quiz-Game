@@ -55,6 +55,10 @@ function timer(event){
 
                     $page6.display = "block"
                     $page2.display = "none"
+                    $page3.display = "none"
+                    $page4.display = "none"
+                    $page5.display = "none"
+                    
                     document.getElementById("finalScore").innerHTML = 0
 
 
