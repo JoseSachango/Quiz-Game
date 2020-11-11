@@ -50,7 +50,7 @@ function timer(event){
                 
                
     
-                if(currentTime===0){
+                if(currentTime===0 || currentTime<0){
                     clearInterval($interval)
 
                     $page6.display = "block"
@@ -61,7 +61,7 @@ function timer(event){
                     
                     document.getElementById("finalScore").innerHTML = 0
 
-
+                    $timeLeft.innerHTML = 0
 
                 }
                 
