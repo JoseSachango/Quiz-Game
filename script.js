@@ -145,7 +145,7 @@ function timer(event){
             currentTime= currentTime -10
             localStorage.setItem("currentTime",currentTime)
             $timeLeft.innerHTML = localStorage.getItem("currentTime")
-            alert("Your got the questions wrong! The time is reduced by 10 seconds!")
+            alert("Your got the question wrong! The time is reduced by 10 seconds!")
            
 
         
